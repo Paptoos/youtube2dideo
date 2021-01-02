@@ -1,9 +1,26 @@
 # Youtube2Dideo
+
 This program converts youtube video links to dideo.ir  
-# Running
-Install the `requests` library using pip (Or if you are using a Gnu/Linux distro, you can install the package from your package manager):  
-`pip3 install requests`  
-And run the program like this:  
-`python main.py youtube-url`    
-You can also use the check option like this(NOT STABLE):  
-`python main.py youtube-url --check`  
+
+# How to use
+
+first, install the libraries listed in `requirements.txt` file:
+```bash
+pip3 install -r requirements.txt
+```
+
+then, run the program; like this:
+```bash
+python3 main.py URL
+```
+where URL is the youtube url.
+
+if you give it the permission (using: `chmod +x main.py`), it will be possible to run like this:
+```bash
+./main.py URL
+```
+
+You can also use the check option like this (*NOT STABLE*):
+```bash
+python main.py URL --check
+```
